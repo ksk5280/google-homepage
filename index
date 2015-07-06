@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Google</title>
+	<style type="text/css">
+	body {
+		font-family: sans-serif;
+		color: #666666;
+		font-size: 13px;
+		min-width: 980px;
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		color: #666666;
+		text-decoration: none;	
+	}
+	a:hover {
+		text-decoration: underline;	
+	}
+	.menu {
+		float: right;
+		padding-right: 20px;
+	}
+	.menuItem {
+		display: inline;
+		list-style: none;
+		padding: 5px;
+	}
+	#apps {
+		height: 28px;
+		width: 28px;
+		position: relative;
+		top: 8px;
+	}
+	#signIn {
+		background-color: #4485F4;
+		color: white;
+		font-weight: bold;
+		padding: 8px;
+		width: 70px;
+		border: none;
+	}
+	.container {
+		clear: both;
+		width: 530px;
+		margin: 0 auto;
+		position: relative;
+		top: 30px;
+	}
+	#logo {
+		padding: 0;
+		margin: auto;
+	}
+	#share {
+		z-index: 1;
+		position: relative;
+		right: 30px;
+		bottom: 5px;
+	}
+	input {
+		width: 500px;
+		height: 25px;
+		margin: 20px auto;
+	}
+	.microphone {
+		height: 27px;
+		float: right;
+		position: relative;
+		right: 30px;
+		top: 22px;
+		z-index: 1;
+	}
+	.buttonDiv {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.search {
+		font-size: 11px;
+		font-weight: bold;
+		color: #444444;
+		background-color: #f1f1f1;
+		padding: 7px 8px;
+		margin: 0 6px;
+		border: 1px solid #d8d8d8;
+	}
+	footer {
+		position: fixed;
+		bottom: 0;
+		background-color: #F2F2F2;
+		height: 40px;
+		width: 100%;
+	}
+	.leftFooter {
+		display: inline;
+		position: relative;
+		bottom: 0;
+		left: -30px;
+	}
+	.rightFooter {
+		display: inline;
+		float: right;
+		bottom: 20px;
+	}
+	.footerItem {
+		display: inline;
+		list-style: none;
+		padding: 0 15px;
+	}
+
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul class="menu">
+			<li class="menuItem"><a href="#">Gmail</li>
+			<li class="menuItem"><a href="#">Images</li>
+			<li class="menuItem"><img id="apps" src="apps.png"></li>
+			<li class="menuItem"><button id="signIn">Sign in</button></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<img id="logo" src="googleLogo.jpg" /> 
+		<img id="share" src="share.png">
+		<br />
+		<input type="text">
+		<img class="microphone" src="microphone.png">
+		<br />
+		<div class="buttonDiv">
+			<button class="search">Google Search</button>
+			<button class="search">I'm Feeling Lucky</button>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<div class="leftFooter">
+				<li class="footerItem"><a href="#">Advertising</li>
+				<li class="footerItem"><a href="#">Business</li>
+				<li class="footerItem"><a href="#">About</li>
+			</div>
+			<div class="rightFooter">
+				<li class="footerItem"><a href="#">Privacy</li>
+				<li class="footerItem"><a href="#">Terms</li>
+				<li class="footerItem"><a href="#">Settings</li>
+			</div>
+		</ul>
+	</footer>
+</body>
+</html>	
